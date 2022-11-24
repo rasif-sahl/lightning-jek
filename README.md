@@ -3,6 +3,12 @@
 ## Run the project
 * `jekyll serve`
 
+## Theme design
+page count 04 - Home(posts list), single post, about, contact
+
+Navigation bar should be in the top and their should be a fixed width for the website.
+
+In the footer only the copyright tag should be included. all the links should be in the navigation bar including the social links.
 ## Work flow
 
 #### Adding a specific theme for a post or page
