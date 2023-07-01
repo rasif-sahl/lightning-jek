@@ -13,9 +13,5 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-destination: _site
 plugins:
   - jekyll-feed
-
-sass:
-  style: compressed
