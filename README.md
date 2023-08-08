@@ -10,3 +10,4 @@ You can follow this article to setup Jekyll in your local machine.
 
 * `jekyll serve` - when you are using application more further you can use this command
 
+colors - #18122B, #443C68, #AEE2FF
