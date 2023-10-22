@@ -11,13 +11,15 @@ layout: default
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <h1 class="post-list-heading">{{ page.list_title }}</h1>
     {%- endif -%}
+
     <div class="box home-box">
       <div class="post-list">
         {%- for post in posts -%}
           <a class="post-link" href="{{ post.url | relative_url }}">
             <h3>{{ post.title | escape }}</h3>
+            <p>{{ post.excerpt }}</p>
           </a>
         {%- endfor -%}
       </div>
