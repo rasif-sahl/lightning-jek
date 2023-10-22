@@ -47,7 +47,7 @@
 .site-nav {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right: calc(#{$spacing-unit} / 2);
     border-radius: 5px;
     text-align: right;
   
